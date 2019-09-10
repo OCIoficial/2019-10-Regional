@@ -1,1 +1,8 @@
-{}
+{
+    "tasks": [
+        "baldosas",
+        "reuniones",
+        "adn",
+        "promedio"
+    ]
+}
