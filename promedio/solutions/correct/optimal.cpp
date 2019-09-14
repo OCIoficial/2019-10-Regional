@@ -22,21 +22,27 @@ void solve() {
   }
 
   std::unordered_map<int, int> inverse;
-  for (int l = n; l >= 0; l--) {
-    inverse[partialSum[l]] = l;
-  }
-
-  for (int len = n; len >= 1; len--) {
-    auto it = inverse.find(partialSum[len]);
+  int partialMax = -1;
+  int partialStart = -1;
+  for (int i = 0; i <= n; ++i) {
+    auto it = inverse.find(partialSum[i]);
     if (it != inverse.end()) {
-      int start = it->second;
-      std::cout << start << ' ' << len << std::endl;
-      return;
+      if (i - it->second > partialMax ||
+          (i - it->second == partialMax && it->second < partialStart)) {
+        partialMax = i - it->second;
+        partialStart = it->second;
+      }
+    } else {
+      inverse[partialSum[i]] = i;
     }
   }
 
-  // didn't find anything
-  std::cout << -1 << std::endl;
+  if (partialMax == -1) {
+    // didn't find anything
+    std::cout << -1 << std::endl;
+  } else {
+    std::cout << partialStart << ' ' << partialMax << std::endl;
+  }
 }
 
 int main() { solve(); }

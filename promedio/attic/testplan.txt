@@ -19,10 +19,10 @@
   1 ; copy statement/sample-3.in
 
   # Random tests
-  2 ; generate.cpp 0 250
-  2 ; generate.cpp 0 250
-  2 ; generate.cpp 0 250
-  2 ; generate.cpp 0 250
+  2 ; generate.cpp 0 10
+  2 ; generate.cpp 0 20
+  2 ; generate.cpp 0 50
+  2 ; generate.cpp 0 100
   2 ; generate.cpp 0 250
   2 ; generate.cpp 0 250
   2 ; generate.cpp 0 250
@@ -32,11 +32,11 @@
 
 [Subtask 2]
   # Random tests
-  3 ; generate.cpp 0 5000
-  3 ; generate.cpp 0 5000
-  3 ; generate.cpp 0 5000
-  3 ; generate.cpp 0 5000
-  3 ; generate.cpp 0 5000
+  3 ; generate.cpp 0 10
+  3 ; generate.cpp 0 20
+  3 ; generate.cpp 0 50
+  3 ; generate.cpp 0 100
+  3 ; generate.cpp 0 500
   3 ; generate.cpp 0 5000
   3 ; generate.cpp 0 5000
   3 ; generate.cpp 0 5000
@@ -53,12 +53,12 @@
 
 [Subtask 3]
   # Random tests
-  4 ; generate.cpp 1 1000000
-  4 ; generate.cpp 1 1000000
-  4 ; generate.cpp 1 1000000
-  4 ; generate.cpp 1 1000000
-  4 ; generate.cpp 1 1000000
-  4 ; generate.cpp 1 1000000
+  4 ; generate.cpp 1 10
+  4 ; generate.cpp 1 20
+  4 ; generate.cpp 1 50
+  4 ; generate.cpp 1 100
+  4 ; generate.cpp 1 1000
+  4 ; generate.cpp 1 100000
   4 ; generate.cpp 1 1000000
   4 ; generate.cpp 1 1000000
   4 ; generate.cpp 1 1000000
@@ -87,13 +87,13 @@
 
 [Subtask 4]
   # Random tests
-  5 ; generate.cpp 0 1000000
-  5 ; generate.cpp 0 1000000
-  5 ; generate.cpp 0 1000000
-  5 ; generate.cpp 0 1000000
-  5 ; generate.cpp 0 1000000
-  5 ; generate.cpp 0 1000000
-  5 ; generate.cpp 0 1000000
+  5 ; generate.cpp 0 10
+  5 ; generate.cpp 0 20
+  5 ; generate.cpp 0 50
+  5 ; generate.cpp 0 100
+  5 ; generate.cpp 0 1000
+  5 ; generate.cpp 0 10000
+  5 ; generate.cpp 0 100000
   5 ; generate.cpp 0 1000000
   5 ; generate.cpp 0 1000000
   5 ; generate.cpp 0 1000000
