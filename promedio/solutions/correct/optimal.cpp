@@ -34,6 +34,9 @@ void solve() {
       return;
     }
   }
+
+  // didn't find anything
+  std::cout << -1 << std::endl;
 }
 
 int main() { solve(); }

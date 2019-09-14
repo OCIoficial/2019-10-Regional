@@ -14,8 +14,8 @@
 
 [Subtask 1]
   # Use sample data as test
-  1 ; copy statement/sample-1.in
-  1 ; copy statement/sample-2.in
+  # 1 ; copy statement/sample-1.in
+  # 1 ; copy statement/sample-2.in
 
   # Random tests
   2 ; generate.cpp 0 250
