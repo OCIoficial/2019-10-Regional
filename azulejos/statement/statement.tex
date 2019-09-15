@@ -1,0 +1,91 @@
+\documentclass{oci}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+
+\title{Azulejos}
+
+\begin{document}
+\begin{problemDescription}
+Varideri es el nuevo propietario de uno de los más famosos restaurantes de Portugal por sus hermosos diseños de azulejos.
+En su primera inspección, notó que la calidad de la comida era notablemente inferior a la de otros restaurantes por la zona, por lo que decidió indagar en el asunto.
+
+\setlength{\tabcolsep}{0.5pt}
+\begin{figure}[h]
+  \begin{center}
+    {
+      \renewcommand{\arraystretch}{0.25}
+      \begin{tabular}{cccc}
+        \includegraphics[scale=0.3]{a.eps} &
+        \includegraphics[scale=0.3]{b.eps} &
+        \includegraphics[scale=0.3]{a.eps} \\
+        \includegraphics[scale=0.3]{b.eps} &
+        \includegraphics[scale=0.3]{a.eps} &
+        \includegraphics[scale=0.3]{b.eps} \\
+        \includegraphics[scale=0.3]{a.eps} &
+        \includegraphics[scale=0.3]{b.eps} &
+        \includegraphics[scale=0.3]{a.eps}
+      \end{tabular}
+    }
+  \end{center}
+\end{figure}
+
+En la inspección, notó que el embaldosado de la cocina está formado por dos tipos de azulejos, $0$ y $1$.
+El diseño de estos azulejos está pensado para producir un patrón de cuadros alternados, es decir, cada azulejo de tipo $0$ tiene un azulejo de tipo $1$ junto a cada uno de sus lados y viceversa.
+Sin embargo, los patrones en la cocina no respetaban esa regla, irritando así al chef y afectando la calidad de su comida.
+Arriba puedes ver un embaldosado correcto, mientras que abajo aparece uno de los que están en la cocina.
+
+\begin{figure}[h]
+  \begin{center}
+    {
+      \renewcommand{\arraystretch}{0.25}
+      \begin{tabular}{cccc}
+        \includegraphics[scale=0.3]{a.eps} &
+        \includegraphics[scale=0.3]{a.eps} &
+        \includegraphics[scale=0.3]{b.eps} \\
+        \includegraphics[scale=0.3]{b.eps} &
+        \includegraphics[scale=0.3]{b.eps} &
+        \includegraphics[scale=0.3]{a.eps} \\
+        \includegraphics[scale=0.3]{a.eps} &
+        \includegraphics[scale=0.3]{a.eps} &
+        \includegraphics[scale=0.3]{b.eps}
+      \end{tabular}
+    }
+  \end{center}
+\end{figure}
+
+Por esto, ha decidido reparar estos patrones para calmar el espíritu riguroso del chef y restaurar la calidad de sus platos.
+Sin embargo, el presupuesto que Vardieri tiene disponible es limitado y necesita saber cuál es la forma más económica de realizar esta tarea.
+Para cambiar un azulejo de tipo $0$ por un de tipo $1$ necesita desembolsar $P$, y para cambiar uno de tipo $1$ por uno de tipo $0$ necesita desembolsar $Q$.
+
+¿Puedes ayudar a Varideri a encontrar la solución más económica para restaurar correctamente los azulejos?
+
+\end{problemDescription}
+
+\begin{inputDescription}
+La entrada tiene varias líneas.
+
+La primera línea contiene 4 enteros, $M$, $N$, $P$ y $Q$ ($1 \le M, N \le 10^3$, $1 \le P, Q \le 10^2$) que corresponden a las dimensiones $M \times N$ de un segmento rectangular de azulejos, y a los costos de reemplazar los azulejos.
+
+Las siguientes $M$ líneas contienen $N$ números, cuyos valores pueden ser $0$ ó $1$.
+El $i$-ésimo número de la $j$-ésima indica qué tipo de azulejo está en la posición (i, j) del embaldosado.
+\end{inputDescription}
+
+\begin{outputDescription}
+La salida debe contener una línea con un único entero, el costo mínimo necesario para cambiar el embaldosado a un patrón alternado.
+\end{outputDescription}
+
+\begin{scoreDescription}
+  \subtask{20}
+  Descripción Subtarea1
+  \subtask{30}
+  Descripción Subtarea2
+  \subtask{50}
+  Descripción Subtarea3
+\end{scoreDescription}
+
+\begin{sampleDescription}
+\sampleIO{sample-1}
+\sampleIO{sample-2}
+\end{sampleDescription}
+
+\end{document}
