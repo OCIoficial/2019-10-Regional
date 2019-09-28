@@ -6,24 +6,24 @@
 
 \begin{document}
 \begin{problemDescription}
-En el último discurso presidencial, se explicó el incremento de la actividad criminal a nivel país en base al reciente alza del precio de la palta Hass. Esta correlación, que la presidencia denomina ICPC (Índice de Correlación entre Paltas y Crimen) llegaría supuestamente al 65\%. Ahora solo necesitan una forma de convencer a la población de que esa cifra completamente inventada es cierta.\\
+En el último discurso presidencial, se explicó el incremento de la actividad criminal a nivel país en base al reciente alza del precio de la palta Hass. Esta correlación, que la presidencia denomina ICPC (Índice de Correlación entre Paltas y Crimen) llegaría supuestamente al 65\%. Ahora solo necesitan una forma de convencer a la población de que esa cifra completamente inventada es cierta.
 
-\noindent Para ello, la Presidencia de la República solicitó a la Organización de Coincidencias Intencionales, también conocida como OCI, encontrar la mayor muestra de datos posible que valide esta estadística.\\
+Para ello, la Presidencia de la República solicitó a la Organización de Coincidencias Intencionales, también conocida como OCI, encontrar la mayor muestra de datos posible que valide esta estadística.
 
-\noindent Dentro de los datos que la OCI tiene a disposición están los valores reales del ICPC en estos últimos $n$ días, y la misión por lo tanto es encontrar el mayor período de días consecutivos en que el promedio del ICPC alcance el valor deseado $t$.\\
+Dentro de los datos que la OCI tiene a disposición están los valores reales del ICPC en estos últimos $n$ días, y la misión por lo tanto es encontrar el mayor período de días consecutivos en que el promedio del ICPC alcance el valor deseado $t$.
 
-\noindent Por ejemplo, si en los últimos 6 días el ICPC ha tenido los valores \texttt{0, 60, 100, 40, 25, 33}, y se desea mostrar a la gente que el ICPC es de $t=50\%$, se pueden mostrar solamente los primeros 4 valores: \texttt{0, 60, 100, 40}, ya que su promedio es exactamente 50\%.\\
+Por ejemplo, si en los últimos 6 días el ICPC ha tenido los valores \texttt{0, 60, 100, 40, 25, 33}, y se desea mostrar a la gente que el ICPC es de $t=50\%$, se pueden mostrar solamente los primeros 4 valores: \texttt{0, 60, 100, 40}, ya que su promedio es exactamente 50\%.
 
-\noindent La OCI ha descubierto que participas de olimpiadas de informática y por lo mismo piensa que eres la persona perfecta para su nuevo plan de manipulación social.\\
+La OCI ha descubierto que participas de olimpiadas de informática y por lo mismo piensa que eres la persona perfecta para su nuevo plan de manipulación social.
 \end{problemDescription}
 
 \begin{inputDescription}
-\noindent Dos enteros $n$ y $t$ en una misma línea, separados por un espacio.\\
+Dos enteros $n$ y $t$ en una misma línea, separados por un espacio.
 
-\noindent En la siguiente línea, $n$ enteros $A_i$ separados por espacios.
-Los $A_i$ son los valores reales del ICPC proporcionados por la OCI.\\
+En la siguiente línea, $n$ enteros $A_i$ separados por espacios.
+Los $A_i$ son los valores reales del ICPC proporcionados por la OCI.
 
-\noindent Puedes asumir que las siguientes restricciones siempre se cumplen:
+Puedes asumir que las siguientes restricciones siempre se cumplen:
 
 $1 \le n \le 10^6$
 
@@ -33,15 +33,15 @@ $0 \le A_i \le 100$
 \end{inputDescription}
 
 \begin{outputDescription}
-\noindent Dos enteros $s$ y $\ell$ en una misma línea, separados por espacio, que describen el período de días consecutivos que se le mostrará a la población (un subsegmento del arreglo).\\
+Dos enteros $s$ y $\ell$ en una misma línea, separados por espacio, que describen el período de días consecutivos que se le mostrará a la población (un subsegmento del arreglo).
 
-\noindent $s$ es el índice dentro de $A$ donde comienza el subsegmento. El índice $0$ corresponde al primer elemento.\\
+$s$ es el índice dentro de $A$ donde comienza el subsegmento. El índice $0$ corresponde al primer elemento.
 
-\noindent $\ell$ es el largo de ese subsegmento.\\
+$\ell$ es el largo de ese subsegmento.
 
-\noindent Si hay dos o más subsegmentos del mismo largo que cumplen con los requisitos, se debe elegir el que comience primero (menor $s$).\\
+Si hay dos o más subsegmentos del mismo largo que cumplen con los requisitos, se debe elegir el que comience primero (menor $s$).
 
-\noindent Si no hay ningún subsegmento que cumpla con los requisitos, se debe imprimir \texttt{-1}.\\
+Si no hay ningún subsegmento que cumpla con los requisitos, se debe imprimir \texttt{-1}.
 \end{outputDescription}
 
 \begin{scoreDescription}
