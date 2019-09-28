@@ -16,6 +16,7 @@
   # Use sample data as test
   1 ; copy statement/sample-1.in
   1 ; copy statement/sample-2.in
+  1 ; copy statement/sample-3.in
 
   # Edge cases
   2 ; generator.py 1 1 0.5 1 1
