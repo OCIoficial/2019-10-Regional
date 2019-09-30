@@ -1,4 +1,4 @@
-[Subtask 1]
+[Subtask 1 - validators/st1.cpp]
   # samples
   sample ; copy statement/sample-1.in
   sample ; copy statement/sample-2.in
