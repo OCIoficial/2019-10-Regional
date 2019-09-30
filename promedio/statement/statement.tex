@@ -17,10 +17,10 @@ Para ello, la Presidencia de la República solicitó a la Organización de
 Coincidencias Intencionales, también conocida como OCI, encontrar la mayor
 muestra de datos posible que valide esta estadística.
 
-Dentro de los datos que la OCI tiene a disposición un arreglo con los valores
-diarios del ICPC en los últimos $N$ días, y la misión es encontrar el período
-más largo de días consecutivos en que el promedio del ICPC alcanza un valor
-deseado $T$.
+Dentro de los datos que la OCI tiene a disposición, posee un arreglo con los
+valores diarios del ICPC en los últimos $N$ días, y la misión es encontrar el
+período más largo de días consecutivos en que el promedio del ICPC alcanza un
+valor deseado $T$.
 
 Por ejemplo, considere el siguiente arreglo con los valores del ICPC en los
 últimos 7 días:
@@ -74,17 +74,17 @@ manipulación social.
 La salida debe contener una única línea con dos enteros $S$ y $L$ separados por
 un espacio.
 Estos enteros deben describir el período de días consecutivos que se le mostrará
-a la población, es decir, el subsegmento del arreglo $A$ más largo cuyo
-promedio es el valor $T$.
+a la población, es decir, el subarreglo más largo de $A$ cuyo promedio es
+exactamente el valor $T$.
 
 Específicamente, $S$ debe ser la posición dentro de $A$ donde comienza el
-subsegmento y $L$ debe ser su largo.
+subarreglo y $L$ debe ser su largo.
 El índice $0$ corresponde al primer elemento.
  
-Si hay dos o más subsegmentos del mismo largo que cumplen con los requisitos, se
+Si hay dos o más subarreglos del mismo largo que cumplen con los requisitos, se
 debe reportar el que comience primero (menor $S$).
 
-Si no hay ningún subsegmento que cumpla con los requisitos, se debe imprimir
+Si no hay ningún subarreglo que cumpla con los requisitos, se debe imprimir
 \texttt{-1}.
 \end{outputDescription}
 
