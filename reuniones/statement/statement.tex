@@ -30,29 +30,43 @@
 \begin{inputDescription}
     La primera línea de la entrada está compuesta de un solo entero $N$.
     Luego siguen $N$ líneas describiendo el tiempo de las reuniones.
-    Cada una de estas líneas contiene dos enteros dos enteros $p_i, q_i$
+    La $i$-ésima línea contiene dos enteros $p_i$ y $q_i$ ($p_i < q_i$)
     separados por un espacio, representando respectivamente el tiempo en que
-    comienza y termina la reunión $i$.
+    comienza y termina la reunión $i$-ésima.
 \end{inputDescription}
 
 \begin{outputDescription}
     La salida debe contener un único entero correspondiente a la cantidad
-    mínima de salas necesarias para la nueva oficina.
+    mínima de salas que debe tener la nueva oficina para poder alojar todas las
+    reuniones.
 \end{outputDescription}
 
 \begin{scoreDescription}
   \subtask{10}
-  Se probarán varios casos donde se cumplen las siguientes restricciones $0 <
-  N \leq 2$ y $0 \leq p_i< q_i \leq 1000$.
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 2$
+    \item $0 \leq p_i< q_i \leq 10^3$
+    \end{itemize}
+  \newpage
   \subtask{10}
-  Se probarán varios casos donde se cumplen las siguientes restricciones $0 <
-  N \leq 3$ y $0 \leq p_i< q_i \leq 1000$.
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 3$
+    \item $0 \leq p_i< q_i \leq 10^3$
+    \end{itemize}
   \subtask{30}
-  Se probarán varios casos donde se cumplen las siguientes restricciones $0 <
-  N \leq 1000$ y $0 \leq p_i< q_i \leq 1000$.
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 10^3$
+    \item $0 \leq p_i< q_i \leq 10^3$
+    \end{itemize}
   \subtask{50}
-  Se probarán varios casos donde se cumplen las siguientes restricciones $0 <
-  N \leq 1000000$ y $0 \leq p_i< q_i \leq 10^6$.
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 10^6$
+    \item $0 \leq p_i< q_i \leq 10^6$
+    \end{itemize}
 \end{scoreDescription}
 
 \begin{sampleDescription}
