@@ -19,6 +19,10 @@
   random ; gen_random.py 2
   random ; gen_random.py 10
   random ; gen_random.py 100
+  random ; gen_random.py 100
+  random ; gen_random.py 1000
   random ; gen_random.py 1000
   random ; gen_random.py 10000
+  random ; gen_random.py 10000
+  random ; gen_random.py 100000
   random ; gen_random.py 100000
