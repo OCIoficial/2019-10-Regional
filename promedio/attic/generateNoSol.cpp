@@ -16,7 +16,7 @@ void printOutput(int size, int target, const std::vector<int> &output) {
 
 int main(int argc, char const *argv[]) {
   assert(argc == 4); // isSorted & n
-  int seed = std::stoi(argv[1]);
+  int seed = std::hash<std::string>{}(argv[1]);
   bool shouldBeSorted = std::stoi(argv[2]);
   int n = std::stoi(argv[3]);
 
