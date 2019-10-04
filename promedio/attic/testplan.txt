@@ -50,6 +50,12 @@
   3 ; generate.cpp 0 5000
   3 ; generate.cpp 0 5000
   3 ; generate.cpp 0 5000
+  3 ; generateNoSol.cpp 0 5000
+  3 ; generateNoSol.cpp 0 5000
+  3 ; generateNoSol.cpp 0 5000
+  3 ; generateNoSol.cpp 0 5000
+  3 ; generateNoSol.cpp 0 5000
+  3 ; generateNoSol.cpp 0 5000
 
 [Subtask 3]
   # Random tests
@@ -83,6 +89,13 @@
   4 ; generate.cpp 1 1000000
   4 ; generate.cpp 1 1000000
   4 ; generate.cpp 1 1000000
+  4 ; generateNoSol.cpp 0 1000000
+  4 ; generateNoSol.cpp 0 1000000
+  4 ; generateNoSol.cpp 0 1000000
+  4 ; generateNoSol.cpp 0 1000000
+  4 ; generateNoSol.cpp 0 1000000
+  4 ; generateNoSol.cpp 0 1000000
+  4 ; generateNoSol.cpp 0 1000000
 
 
 [Subtask 4]
@@ -127,3 +140,11 @@
   5 ; generate.cpp 0 1000000
   5 ; generate.cpp 0 1000000
   5 ; generate.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
+  5 ; generateNoSol.cpp 0 1000000
