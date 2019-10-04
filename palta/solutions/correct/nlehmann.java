@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class promedio {
+class palta {
     static public void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
