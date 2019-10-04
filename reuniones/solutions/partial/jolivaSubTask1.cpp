@@ -13,7 +13,7 @@ int main(){
     cin >> T1.first >> T1.second >> T2.first >> T2.second;
     if (T1>T2)
         swap(T1, T2);
-    if (T2.first>T1.second)
+    if (T2.first>=T1.second)
         cout << "1\n";
     else
         cout << "2\n";
