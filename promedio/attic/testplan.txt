@@ -12,7 +12,7 @@
 # To generate test cases using test plan use `ocimatic gen-input`
 
 
-[Subtask 1]
+[Subtask 1 - validators/st1.cpp]
   # Use sample data as test
   1 ; copy statement/sample-1.in
   1 ; copy statement/sample-2.in
@@ -30,7 +30,11 @@
   2 ; generate.cpp 0 250
 
 
-[Subtask 2]
+[Subtask 2 - validators/st2.cpp]
+  # Sample data has solution at 0 so we copy it in every subtask to consider this case
+  1 ; copy statement/sample-1.in
+  1 ; copy statement/sample-2.in
+
   # Random tests
   3 ; generate.cpp 0 10
   3 ; generate.cpp 0 20
@@ -57,7 +61,7 @@
   3 ; generateNoSol.cpp 0 5000
   3 ; generateNoSol.cpp 0 5000
 
-[Subtask 3]
+[Subtask 3 - validators/st3.cpp]
   # Random tests
   4 ; generate.cpp 1 10
   4 ; generate.cpp 1 20
@@ -98,7 +102,11 @@
   4 ; generateNoSol.cpp 0 1000000
 
 
-[Subtask 4]
+[Subtask 4 - validators/st4.cpp]
+  # Sample data has solution at 0 so we copy it in every subtask to consider this case
+  1 ; copy statement/sample-1.in
+  1 ; copy statement/sample-2.in
+
   # Random tests
   5 ; generate.cpp 0 10
   5 ; generate.cpp 0 20

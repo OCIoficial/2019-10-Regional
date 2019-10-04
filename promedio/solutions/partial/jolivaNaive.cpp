@@ -10,7 +10,7 @@ void solve(int *arr, int n){
     for (int largo=n;largo>0;largo--){
         for (int i=0;i<n+1-largo;i++){
             int suma=0;
-            for (int j=0;j<largo;j++){
+            for (int j=i;j<i+largo;j++){
                 suma+=arr[j];
             }
             if (suma==0){

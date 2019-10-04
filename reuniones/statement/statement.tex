@@ -6,38 +6,67 @@
 
 \begin{document}
 \begin{problemDescription}
-    Sabina ha estado trabajando en una start-up por los últimos años. Recientemente, Sabina ha visto su start-up
-    crecer al punto de necesitar una nueva oficina. Uno de los aspectos más importantes para ella es 
-    asegurarse que la nueva oficina tiene suficientes salas para todas las reuniones de la empresa, pero como
-    ella está muy ocupada siendo la dueña de la empresa, te ha pedido ayuda a ti para resolver este problema.
+  Sabina ha estado trabajando en una start-up durante los últimos años.
+  Recientemente, Sabina ha visto su start-up crecer al punto de necesitar una
+  nueva oficina.
+  Uno de los aspectos más importantes para ella es
+  asegurarse de que la nueva oficina tenga suficientes salas para todas las
+  reuniones de la empresa.
+  Como Sabina está muy ocupada siendo la dueña de la empresa, te ha pedido
+  ayuda para resolver este problema.
 
-    Cada reunion necesita tener una sala de reuniones asignada, pero una sala no puede estar asignada a más de 
-    una reunion al mismo tiempo. Por lo tanto, una sala puede ser reutilizada si y solo si los tiempos de las
-    reuniones asignadas a la sala no se intersectan. Con el fin de ahorrar dinero, Sabina está buscando una 
-    oficina con la mínima cantidad de salas de reuniones necesaria para su empresa.
+  Cada reunión necesita tener una sala asignada, pero una sala no
+  puede estar asignada a más de una reunión al mismo tiempo.
+  Por lo tanto, una sala puede ser reutilizada si y solo si los tiempos de las
+  reuniones asignadas a la sala no se intersectan.
+  Puedes asumir que el tiempo en desocupar una oficina es despreciable y por
+  lo tanto una reunión puede comenzar exactamente en el momento en que otra
+  termina.
+
+  Con el fin de ahorrar dinero, Sabina está buscando una oficina con la mínima
+  cantidad de salas que le permita acomodar las reuniones de su empresa.
 \end{problemDescription}
 
 \begin{inputDescription}
-    La entrada consiste de una linea con un solo entero $N$ ($0 < N \leq 1.000.000$), seguido de $N$ lineas,
-    cada una con dos entereos $p_i, q_i$ separados por un espacio. Donde $p_i$ representa el tiempo
-    en que la reunion $i$ empieza, y $q_i$ representa el tiempo en que la reunion $i$ termina, con 
-    $0 \leq p_i, q_i \leq 1.000.000$, $0 \leq i \leq N$.
+    La primera línea de la entrada está compuesta de un solo entero $N$.
+    Luego siguen $N$ líneas que describen el tiempo de las reuniones.
+    La $i$-ésima línea contiene dos enteros, $p_i$ y $q_i$ ($p_i < q_i$),
+    separados por un espacio, representando respectivamente el tiempo en que
+    comienza y termina la $i$-ésima reunión.
 \end{inputDescription}
 
 \begin{outputDescription}
-    La salida consiste un solo entero $X$ representando la cantidad mínima de salas de reuniones necesarias para
-    la nueva oficina.
+    La salida debe contener un único entero, correspondiente a la cantidad
+    mínima de salas que debe tener la nueva oficina para poder alojar todas las
+    reuniones.
 \end{outputDescription}
 
 \begin{scoreDescription}
   \subtask{10}
-  $0 < N \leq 2$ y $0 \leq p_i, q_i \leq 1000$
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 2$
+    \item $0 \leq p_i< q_i \leq 10^3$
+    \end{itemize}
+  \newpage
   \subtask{10}
-  $0 < N \leq 3$ y $0 \leq p_i, q_i \leq 1000$
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 3$
+    \item $0 \leq p_i< q_i \leq 10^3$
+    \end{itemize}
   \subtask{30}
-  $0 < N \leq 1000$ y $0 \leq p_i, q_i \leq 1000$
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 10^3$
+    \item $0 \leq p_i< q_i \leq 10^3$
+    \end{itemize}
   \subtask{50}
-  $0 < N \leq 1000000$ y $0 \leq p_i, q_i \leq 1000000$
+    Se probarán varios casos donde se cumplen las siguientes restricciones:
+    \begin{itemize}
+    \item $0 < N \leq 10^6$
+    \item $0 \leq p_i< q_i \leq 10^6$
+    \end{itemize}
 \end{scoreDescription}
 
 \begin{sampleDescription}

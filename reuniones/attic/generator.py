@@ -20,5 +20,5 @@ if case == 0:
 else:
     for i in range(n):
         start = random.randint(0, maxT - 1)
-        end = random.randint(start, maxT)
+        end = random.randint(start + 1, maxT)
         print("{} {}".format(start, end))
