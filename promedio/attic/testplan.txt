@@ -31,6 +31,10 @@
 
 
 [Subtask 2 - validators/st2.cpp]
+  # Sample data has solution at 0 so we copy it in every subtask to consider this case
+  1 ; copy statement/sample-1.in
+  1 ; copy statement/sample-2.in
+
   # Random tests
   3 ; generate.cpp 0 10
   3 ; generate.cpp 0 20
@@ -86,6 +90,10 @@
 
 
 [Subtask 4 - validators/st4.cpp]
+  # Sample data has solution at 0 so we copy it in every subtask to consider this case
+  1 ; copy statement/sample-1.in
+  1 ; copy statement/sample-2.in
+
   # Random tests
   5 ; generate.cpp 0 10
   5 ; generate.cpp 0 20
